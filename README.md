@@ -3,6 +3,12 @@ School project where I made a working analog clock
 
 ![image](https://user-images.githubusercontent.com/47821731/200197005-0982e4d5-b2b9-4deb-83c0-55d82481592d.png)
 
+## Repository Organization
+
+  * Here you can find the [html](https://github.com/marcoftmartins/analog-clock-js/blob/main/index.html).
+  * You can see the [javascript](https://github.com/marcoftmartins/analog-clock-js/blob/main/js/clock.js) code inside js folder.
+  * You can see the [css](https://github.com/marcoftmartins/analog-clock-js/blob/main/css/style.css) stylesheet inside css folder.
+
 ## Built With
 
 <img align="left" alt="html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
