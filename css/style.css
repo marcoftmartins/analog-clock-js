@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.clockbox{
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circle{
+    fill: rgb(255, 255, 255);
+    stroke: #000;
+    stroke-width: 5;
+}
+.mid-circle{
+    fill: #000;
+}
+.hour-arm{
+    fill:none;
+    stroke: #000;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+.minute-arm{
+    fill:none;
+    stroke: #000;
+    stroke-width: 7;
+    stroke-miterlimit: 10;
+}
+.second-arm{
+    fill: none;
+    stroke:rgb(216, 17, 17);
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+.sizing-box{
+    fill:none;
+}
+#hour,#minute,#second{
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hour-marks{
+    fill: none;
+    stroke: #000;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+}
+.minute-marks{
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
