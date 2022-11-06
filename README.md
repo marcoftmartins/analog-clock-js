@@ -1,4 +1,7 @@
 # Analog Clock
+School project where I made a working analog clock
+
+![image](https://user-images.githubusercontent.com/47821731/200197005-0982e4d5-b2b9-4deb-83c0-55d82481592d.png)
 
 ## Built With
 
